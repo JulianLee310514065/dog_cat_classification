@@ -26,7 +26,7 @@ python -m train [-batchsize BATCHSIZE] [-modelname MODELNAME] [-epochs EPOCHS] [
 
 變數設定如下 : 
 * `-batchsize` : 設定批次大小，預設64。
-* `-modelname` : 設定transfer learning之套用模型，使用為`timm`函數庫之模型，預設為`efficientnet_b0`。
+* `-modelname` : 設定transfer learning之套用模型，使用`timm`函數庫之模型，預設為`efficientnet_b0`。
 * `-epochs` : 訓練多少個回合，預設20。
 * `-lr` : 優化器之學習率，預設0.0002。
 * `-filepath` : 訓練圖片所在資料夾，輸入為字串，預設為`'train'`。
