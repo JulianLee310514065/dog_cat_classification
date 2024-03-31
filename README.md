@@ -43,3 +43,7 @@ python -m test [-filepath FILEPATH] [-batchsize BATCHSIZE] [-modelname MODELNAME
 * `-modelname` : 設定transfer learning之套用模型，需與訓練時使用相同之模型，預設為`efficientnet_b0`。
 * `-filepath` : 驗證圖片所在資料夾，輸入為字串，預設為`'train'`。
 
+驗證會在終端印出準確度等結果，也會畫出混淆矩陣與ROC，如下: 
+![cm](https://github.com/JulianLee310514065/dog_cat_classification/blob/main/Figure_1.png)
+![roc](https://github.com/JulianLee310514065/dog_cat_classification/blob/main/Figure_2.png)
+
